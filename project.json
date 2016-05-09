@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "emitEntryPoint": true
+    },
+    "tooling": {
+        "defaultNamespace": "patient_registry"
+    },
+    "dependencies": {
+        "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+        "Microsoft.AspNet.Owin": "1.0.0-rc1-final",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
+        "Microsoft.Framework.Runtime": "1.0.0-beta6",
+        "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc1-final",
+        "Nancy": "1.4.3"
+    },
+    "commands": {
+        "web": "Microsoft.AspNet.Server.Kestrel --server Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5000"
+    },
+    "frameworks": {
+        "dnx451": {}
+    }
+}
