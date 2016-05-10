@@ -48,6 +48,7 @@ artifacts/
 *_p.c
 *_i.h
 *.idea
+*jspm_packages*
 *.ilk
 *.meta
 *.obj
