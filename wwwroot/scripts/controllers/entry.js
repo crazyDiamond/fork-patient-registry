@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name patientRegistryApp.controller:AboutCtrl
+ * @name patientRegistryApp.controller:EntryCtrl
  * @description
- * # AboutCtrl
+ * # EntryCtrl
  * Controller of the patientRegistryApp
  */
 angular.module('patientRegistryApp')
-  .controller('AboutCtrl', function () {
+  .controller('EntryCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

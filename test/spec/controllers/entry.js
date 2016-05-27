@@ -1,23 +1,28 @@
 'use strict';
 
-describe('Controller: AboutCtrl', function () {
+describe('Controller: EntryCtrl', function () {
 
   // load the controller's module
   beforeEach(module('patientRegistryApp'));
 
-  var AboutCtrl,
+  var EntryCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutCtrl = $controller('AboutCtrl', {
+    EntryCtrl = $controller('EntryCtrl', {
       $scope: scope
       // place here mocked dependencies
     });
   }));
 
   it('should attach a list of awesomeThings to the scope', function () {
-    expect(AboutCtrl.awesomeThings.length).toBe(3);
+    expect(EntryCtrl.awesomeThings.length).toBe(3);
+  });
+
+  it('should have a button', function () {
+    console.log(EntryCtrl)
+
   });
 });
